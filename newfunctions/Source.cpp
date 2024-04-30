@@ -30,6 +30,7 @@ int If2(int a)
 double If24(int x)
 {
     double f;
+    // test
     if (x > 0) f = (2 * sin(x));
     if (x <= 0) f = (6 - x);
     return f;
